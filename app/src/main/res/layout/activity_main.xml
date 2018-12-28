@@ -220,35 +220,10 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="책상"
+                    android:text="가구"
                     />
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:background="@drawable/shape_box"
-                >
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@drawable/table"
-                    />
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.1"
-                    />
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="협탁"
-                    />
-            </LinearLayout>
         </LinearLayout>
 
         <TextView
@@ -256,6 +231,15 @@
             android:layout_height="0dp"
             android:layout_weight="0.15"
             />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.85"
+        android:text="매장 네이버 카페"
+        android:gravity="center"
+        android:background="@drawable/shape_bluebox"
+        />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -265,56 +249,31 @@
             android:gravity="center"
             >
             <LinearLayout
+                android:clickable="true"
+                android:onClick="llNaver"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:orientation="horizontal"
                 android:background="@drawable/shape_box"
                 >
                 <ImageView
                     android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/n"
+                    />
+                <TextView
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@drawable/wardrobe"
-                    />
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.1"
-                    />
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="장롱"
+                    android:text="클릭하시면\n카페로 이동됩니다!"
+                    android:textSize="20dp"
+                    android:gravity="center"
                     />
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:background="@drawable/shape_box"
-                >
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@drawable/wardrobe"
-                    />
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.1"
-                    />
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="기타"
-                    />
-            </LinearLayout>
         </LinearLayout>
 
     <TextView
