@@ -1,7 +1,9 @@
-package com.sstore.secondstore;
+package com.sstore.secondstore.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.sstore.secondstore.R;
 
 public class ActivityFridge extends AppCompatActivity {
 
