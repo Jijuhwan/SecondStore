@@ -17,27 +17,41 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:background="@drawable/call"
+        android:clickable="true"
+        android:onClick="btnCall"
         />
     <TextView
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="7"
-        android:text="← 가격문의는 전화주세요."
+        android:text="가격문의는 전화주세요."
         android:gravity="center"
         />
     <ImageView
+        android:id="@+id/btnBack"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:background="@drawable/back"
+        android:clickable="true"
+        android:onClick="btnBack"
         />
 
 </LinearLayout>
 
+<<<<<<< HEAD
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:contentDescription="no image.."
+=======
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.05"
+>>>>>>> 02c826d073731098a745a97179a0a462639488ef
         />
 
     <LinearLayout
@@ -46,7 +60,11 @@
         android:layout_weight="1"
         >
         <ListView
+<<<<<<< HEAD
+            android:id="@+id/washingLv"
+=======
             android:id="@+id/listview"
+>>>>>>> 02c826d073731098a745a97179a0a462639488ef
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
