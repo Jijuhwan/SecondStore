@@ -39,19 +39,17 @@
 
 </LinearLayout>
 
-<<<<<<< HEAD
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.5"
-        android:contentDescription="no image.."
-=======
+        android:contentDescription="no image.."/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.05"
->>>>>>> 02c826d073731098a745a97179a0a462639488ef
         />
 
     <LinearLayout
@@ -60,14 +58,9 @@
         android:layout_weight="1"
         >
         <ListView
-<<<<<<< HEAD
             android:id="@+id/washingLv"
-=======
-            android:id="@+id/listview"
->>>>>>> 02c826d073731098a745a97179a0a462639488ef
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
 
         </ListView>
     </LinearLayout>
